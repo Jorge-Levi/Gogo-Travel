@@ -16,10 +16,18 @@
   <body>
     <nav></nav>
     <div id="tab_bar"></div>
-    <main>
-      <section id="home"></section>
-      <section id="recomendadas"></section>
+    <main id="home" class="h-screen">
+      <div class="bg-center bg-cover h-3/4 bg-sanFrancisco">
+        <div class="flex justify-end">
+          <button>Night Mode</button>
+        </div>
+        <div class="flex flex-col flex-wrap items-center content-center justify-between pt-3 h-5/6">
+          <input class="w-4/5 p-2 text-center placeholder-gray-500 border border-gray-300 shadow-md outline-none rounded-3xl focus:ring-2 focus:ring-blue-500 focus:border-transparent" type="text" placeholder="San Francisco">
+          <button class="w-2/4 p-3 text-center bg-white border border-gray-400 rounded-lg shadow-md text-primary hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">Explore Me</button>
+        </div>
+      </div>
     </main>
+    <section id="recomendadas"></section>
     <footer></footer>
   </body>
 </html>

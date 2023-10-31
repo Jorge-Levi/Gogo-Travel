@@ -5,6 +5,7 @@ module.exports = {
       'primary':"#CC2D4A",
       'secondary':"#8FA206",
       'tertiary':"#61AEC9",
+      'white':"#FFF"
     },
     fontFamily:{
       Montserrat: ["Monserrat", "sans-serif"],
@@ -31,5 +32,6 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
+    require('@tailwindcss/forms'),
   ],
 };
