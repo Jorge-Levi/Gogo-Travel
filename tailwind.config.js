@@ -27,6 +27,9 @@ module.exports = {
 			  'chicago': "url('../img/chicago.jpg')",
 			  'europe': "url('../img/europe.jpg')",
 			  'iceland': "url('../img/iceland.jpg')",
+      },
+      height:{
+        '100':'30rem'
       }
     },
   },

@@ -16,18 +16,59 @@
   <body>
     <nav></nav>
     <div id="tab_bar"></div>
-    <main id="home" class="h-screen">
-      <div class="bg-center bg-cover h-3/4 bg-sanFrancisco">
+    <main id="home" class="h-auto">
+      <div class="bg-center bg-cover h-100 bg-sanFrancisco">
         <div class="flex justify-end">
           <button>Night Mode</button>
         </div>
-        <div class="flex flex-col flex-wrap items-center content-center justify-between pt-3 h-5/6">
-          <input class="w-4/5 p-2 text-center placeholder-gray-500 border border-gray-300 shadow-md outline-none rounded-3xl focus:ring-2 focus:ring-blue-500 focus:border-transparent" type="text" placeholder="San Francisco">
-          <button class="w-2/4 p-3 text-center bg-white border border-gray-400 rounded-lg shadow-md text-primary hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent">Explore Me</button>
+        <div
+          class="flex flex-col flex-wrap items-center content-center justify-between pt-3 h-5/6"
+        >
+          <input
+            class="w-4/5 p-2 text-center placeholder-gray-500 border border-gray-300 shadow-md outline-none rounded-3xl focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+            type="text"
+            placeholder="San Francisco"
+          />
+          <button
+            class="w-2/4 p-3 text-center bg-white border border-gray-400 rounded-lg shadow-md text-primary hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent"
+          >
+            Explore Me
+          </button>
         </div>
       </div>
     </main>
-    <section id="recomendadas"></section>
+    <section id="recomendadas" class="pt-3 pb-3 pl-3 m-auto">
+      <h1 class="text-xl font-bold text-primary">Our Recommendations</h1>
+      <div class="flex gap-3 pt-3 overflow-x-auto overscroll-x-contain">
+        <div class="Card">
+          <div>
+            <img src="./img/norway.jpg" alt="Imagen de Norway" />
+          </div>
+          <div class="pt-3 pb-10 pl-3 bg-secondary">
+            <h2 class="text-white CardH2">Norway</h2>
+            <p class="text-white CardP ">Beautiful Places</p>
+          </div>
+        </div>
+        <div class="Card">
+          <div>
+            <img src="./img/new_york.jpg" alt="Imagen de New York" />
+          </div>
+          <div class="pt-3 pb-10 pl-3 bg-white">
+            <h2 class="text-tertiary CardH2">New York</h2>
+            <p class="text-tertiary CardP ">Beautiful Places</p>
+          </div>
+        </div>
+        <div class="Card">
+          <div>
+            <img src="./img/yosemite.jpg" alt="Imagen de Yosmite" />
+          </div>
+          <div class="pt-3 pb-10 pl-3 bg-secondary">
+            <h2 class="text-white CardH2">Norway</h2>
+            <p class="text-white CardP ">Beautiful Places</p>
+          </div>
+        </div>
+      </div>
+    </section>
     <footer></footer>
   </body>
 </html>
