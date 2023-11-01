@@ -13,3 +13,11 @@
 .CardP{
     @apply text-lg
 }
+
+.RentasDestacadasH3{
+    @apply text-xl px-8 pb-1 font-semibold text-white pt-8 pb-2
+}
+
+.RentasDestacadasP{
+    @apply pl-8 mr-24 text-sm
+}
