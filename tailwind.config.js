@@ -33,6 +33,9 @@ module.exports = {
       }
     },
   },
+  variants:{
+    with:["responsive","hover","focus"],
+  },
   plugins: [
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
