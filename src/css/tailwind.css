@@ -21,3 +21,7 @@
 .RentasDestacadasP{
     @apply pl-8 mr-24 text-sm
 }
+
+.FooterP{
+    @apply text-sm text-gray
+}
