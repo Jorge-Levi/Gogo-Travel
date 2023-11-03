@@ -7,7 +7,9 @@ module.exports = {
       'tertiary':"#61AEC9",
       'white':"#FFF",
       'gray':"#6b7280",
-      'gray50':'#f5f5f5'
+      'gray50':'#f5f5f5',
+      'gray900':'#111827',
+      'gray800':'#4a5568',
     },
     fontFamily:{
       Montserrat: ["Monserrat", "sans-serif"],
@@ -35,6 +37,7 @@ module.exports = {
       }
     },
   },
+  darkMode:'class',
   variants:{
     with:["responsive","hover","focus"],
   },
